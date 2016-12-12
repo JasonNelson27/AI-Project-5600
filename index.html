@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ai-project-5600 by JasonNelson27</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Ai-project-5600</h1>
+      <h2 class="project-tagline">Adding AI Project 5600</h2>
+      <a href="https://github.com/JasonNelson27/AI-Project-5600" class="btn">View on GitHub</a>
+      <a href="https://github.com/JasonNelson27/AI-Project-5600/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/JasonNelson27/AI-Project-5600/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h3>
+<a id="abstract" class="anchor" href="#abstract" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Abstract</h3>
+
+<p>The purpose of this project is to develop an artificial intelligence system that is capable predicating stock prices. The AI implements Technical Indicators input through a Neural Network.</p>
+
+<h3>
+<a id="problem-description" class="anchor" href="#problem-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Problem Description</h3>
+
+<p>While stock trading is common, making money through such trading with an AI is not. Such successful trading requires critical judgement and analysis. We work to produce results that will predict correct stock prices resulting in a financial gain.</p>
+
+<h3>
+<a id="methods" class="anchor" href="#methods" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Methods</h3>
+
+<p>The system works by pulling information (open, close, high, low, volume) from a csv file, puts that information through a puts it through the neural network. Once it is trained by data set, it will produce a prediction for the following day. The prediction will be output the predicted stock price for the following day, with the recommended action in the form of B (Buy), S (Sell), or H (Hold). The algorithm is ran for each “new” day on the past data, putting in all the technical indicators through the neural network.</p>
+
+<p>Some Technical Indicators Used</p>
+
+<ul>
+<li>Moving Average<br>
+</li>
+<li>Exponential Moving Average<br>
+</li>
+<li>Rate of Change<br>
+</li>
+<li>Average True Range<br>
+</li>
+<li>Bollinger Bands<br>
+</li>
+<li>Pivot Points, Supports and Resistances<br>
+</li>
+<li>Stochastic oscillator</li>
+<li>Average Directional</li>
+<li>Movement Index<br>
+</li>
+<li>Mass Index<br>
+</li>
+<li>Vortex Indicator: </li>
+<li>KST Oscillator<br>
+</li>
+<li>Relative Strength Index<br>
+</li>
+<li>True Strength Index<br>
+</li>
+<li>Accumulation/Distribution<br>
+</li>
+<li>Chaikin Oscillator<br>
+</li>
+<li>Money Flow Index and Ratio<br>
+</li>
+<li>On-balance Volume<br>
+</li>
+<li>Force Index<br>
+</li>
+<li>Ease of Movement<br>
+</li>
+<li>Coppock Curve<br>
+</li>
+<li>Keltner Channel<br>
+</li>
+<li>Ultimate Oscillator<br>
+</li>
+<li>Donchian Channel<br>
+</li>
+<li>Standard Deviation </li>
+</ul>
+
+<h3>
+<a id="results" class="anchor" href="#results" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Results</h3>
+
+<p>Once trained of a 10 year data set (Open, close, high, low, and volume) and executed with 20 stock technical indicators  over the past 2 months the results found show that the best run with the predictor was able to estimate prices with the standard deviation of $3.70  for Apples stock prices.</p>
+
+<p><img src="http://i.imgur.com/NgbWc0o.png" alt=""></p>
+
+<p>Running the algorithm trained with 10 year data set, with same indicators and 2 month time period. The results show that the deviation of $16.30 with Googles stock prices</p>
+
+<p><img src="http://i.imgur.com/ciDRLwP.png" alt=""></p>
+
+<h3>
+<a id="conclusion" class="anchor" href="#conclusion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conclusion</h3>
+
+<p>Though the predictions where close to the actual stock movement, the overall conclusion is the current system is unable to successfully trade on the market. It doesn’t lose drastically but slowly over time. It did make a few successful trades but that would not compensate for the other bad trades. Future work will  involve  working with the larger data set, different stocks, machine learning with news feeds, and implementing a trader.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/JasonNelson27/AI-Project-5600">Ai-project-5600</a> is maintained by <a href="https://github.com/JasonNelson27">JasonNelson27</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
